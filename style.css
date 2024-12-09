@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+.section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Profile Section */
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ffc107;
+}
+
+.text-profile {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-profile p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+/* Materi Pembelajaran*/
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card-body p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+    color: #343a40;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .text-profile {
+        padding: 15px;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+    }
+}
